@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "instapaper-latest-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-28",
+  "vars": {
+    "ALLOWED_ORIGIN": "https://example.com",
+    "CACHE_TTL_SECONDS": "60",
+    "INSTAPAPER_USERNAME": "example-user"
+  }
+}
